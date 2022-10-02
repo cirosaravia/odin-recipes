@@ -1,0 +1,30 @@
+/* CSS for Front Page */
+.title {
+    background-color: green;
+    color:white;
+    font-weight:bold;
+    border:15px solid red;
+    margin:60px;
+    text-align:center;
+}
+.center{
+    text-align: center;
+    margin:30px;
+}
+
+a {
+    text-decoration: underline;
+    color:blue;
+    font-weight: bold; 
+}
+.image-center{
+    text-align:center;
+}
+.image-design{
+    display:inline;
+    width:250px;
+    border: solid black;
+}
+
+
+/* CSS for RECIPE PAGES */ 
