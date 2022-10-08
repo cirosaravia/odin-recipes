@@ -4,12 +4,13 @@
     color:white;
     font-weight:bold;
     border:15px solid red;
-    margin:60px;
+    margin:30px;
     text-align:center;
 }
 .center{
     text-align: center;
     margin:30px;
+    list-style-position: inside;
 }
 
 a {
@@ -17,13 +18,20 @@ a {
     color:blue;
     font-weight: bold; 
 }
-.image-center{
-    text-align:center;
-}
-.image-design{
+
+.image-border{
     display:inline;
     width:250px;
     border: solid black;
+}
+
+.text-box{
+    width:300px; 
+    border:solid red;
+    padding:20px;
+    display:inline-block;
+    text-align:center;
+
 }
 
 
