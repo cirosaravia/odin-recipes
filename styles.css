@@ -1,11 +1,7 @@
 /* CSS for Front Page */
-.title {
-    background-color: green;
-    color:white;
-    font-weight:bold;
-    border:15px solid red;
-    margin:30px;
+.title{
     text-align:center;
+    color:white;
 }
 .center{
     text-align: center;
@@ -18,21 +14,59 @@ a {
     color:blue;
     font-weight: bold; 
 }
-
-.image-border{
-    display:inline;
-    width:250px;
-    border: solid black;
-}
-
 .text-box{
     width:300px; 
     border:solid red;
     padding:20px;
     display:inline-block;
     text-align:center;
+}
 
+.flex-container{
+    display:flex;
+    position:absolute;
+    width:100%;
+    top:20%;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.flex-container-columns{
+    margin-top:40px;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    gap:20px;
+}
+
+.item{
+    text-align:center;
+    width:500px;
+    height:60px;
+    border:4px;
+}
+
+.header{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    color:white;
+    font-size:40px;
+
+}
+.border{
+    width:250px;
+    border: solid black;
 }
 
 
-/* CSS for RECIPE PAGES */ 
+.center-list{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-position: inside;
+  }
+
+.body{
+    background-size:cover;
+    background-position:center;
+}
